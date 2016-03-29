@@ -1,9 +1,9 @@
 my_name = 'Da Woon CHAE'
 my_age = 23 # not a lie
-my_height_cm = 176 # inches
+my_height_cm = 176 # centimeter
 cm_to_inch = 1.0 / 2.54
 my_height_inch = my_height_cm * cm_to_inch
-my_weight_kg = 72 # lbs
+my_weight_kg = 72 # kilogram
 my_eyes = 'Black'
 my_teeth = 'White'
 my_hair = 'Black'
