@@ -1,24 +1,25 @@
+#-*-coding:cp949
 x = "There are %d types of people." % 10
-# x ì˜ ëª…ë ¹ì–´ ì§€ì •
+# x ÀÇ ¸í·É¾î ÁöÁ¤
 binary = "binary"
-# binary ì˜ ëª…ë ¹ì–´ ì§€ì •
+# binary ÀÇ ¸í·É¾î ÁöÁ¤
 do_not = "don't"
-# do_not ì˜ ëª…ë ¹ì–´ ì§€ì •
+# do_not ÀÇ ¸í·É¾î ÁöÁ¤
 y = "Those who know %s and those who %s." % (binary, do_not)
-# y ì˜ ëª…ë ¹ì–´ ì§€ì •
+# y ÀÇ ¸í·É¾î ÁöÁ¤
 print x
 print y
-# x,y ì…ë ¥
+# x,y ÀÔ·Â
 print "I said: %r." % x
 print "I also said: '%s'." % y
-# x,y ë¥¼ í¬í•¨í•œ ë¬¸ì¥ ì…ë ¥
+# x,y ¸¦ Æ÷ÇÔÇÑ ¹®Àå ÀÔ·Â
 hilarious = False
 joke_evaluation = "Isn't that joke so funny?! %r"
-# ìƒˆë¡œìš´ ëª…ë ¹ì–´ ì§€ì •
+# »õ·Î¿î ¸í·É¾î ÁöÁ¤
 print joke_evaluation % hilarious
-# ìƒˆë¡œìš´ ë¬¸ì¥ ì…ë ¥
+# »õ·Î¿î ¹®Àå ÀÔ·Â
 w = "This is the left side of..."
 e = "a string with a right side."
-# w,e ì˜ ëª…ë ì–´ ì§€ì •
+# w,e ÀÇ ¸í··¾î ÁöÁ¤
 print w + e
-# w,e ì…ë ¥
+# w,e ÀÔ·Â
