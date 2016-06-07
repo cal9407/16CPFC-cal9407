@@ -2,12 +2,12 @@
 
 
 mystuff = {'apple': "I AM APPLES!"}
-print mystuff['apple']
+print(mystuff['apple'])
 
 import mystuff
 
 mystuff.apple()
-print mystuff.tangerine
+print(mystuff.tangerine)
 
 
 class MyStuff(object):
@@ -15,14 +15,14 @@ class MyStuff(object):
         self.tangerine = "And now a thousand years between"
 
     def apple(self):
-        print "I AM CLASSY APPLES!"
+        print("I AM CLASSY APPLES!")
 
 
 
 
 thing = MyStuff()
 thing.apple()
-print thing.tangerine
+print(thing.tangerine)
 
 
 class Song(object):
@@ -32,7 +32,7 @@ class Song(object):
 
     def sing_me_a_song(self):
         for line in self.lyrics:
-            print line
+            print(line)
 
 happy_bday = Song(["Happy birthday to you",
                    "I don't want to get sued",
